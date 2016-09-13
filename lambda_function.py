@@ -7,7 +7,7 @@ from __future__ import print_function
 import requests
 import json
 
-_SERVER = 'https://home.sensibo.com/api/v2'
+_SERVER = 'https://home.sensibo.com/me/api' # Sensibio changed it's api URL
 
 """ This skill is designed for only one pod at the moment / the first pod listed on your account 
 (since I don't have multiple pods, I could not design / test the app for this scenario 
